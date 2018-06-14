@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>MyProfile</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<script type="text/javascript" src="js/jquery-1.9.1.js" ></script>
+	</head>
+	<body>
+		<div class="navbar navbar-default" data-spy="affix" data-offset-top="280">
+			<ul class="nav nav-pills">
+				<li><a href="#about" >About</a></li>
+				<li><a href="#Protfolid">Protfolid</a></li>
+				<li><a href="#Contact">Contact</a></li>
+			</ul>
+		</div>
+		<div class="container" id="about">
+			<div class="about row" >
+				<div class="col-md-6 text-center intro">
+					<h4>Introduction</h4>
+					<p>The twentity one years old boy who graduate from one of the best colleage in China, 
+						which name is SiChuan University, major in Software engineering. 
+						He loves making website, proficient in using front-end web development technologies such as HTML, CSS, and Javascript, familiar with the bootstrap jquery and other front-end development framework, 
+						and egaer to have a good job as a Front-End developer. 
+					</p>
+				</div>
+				<div class="col-md-1"></div>
+				<div class="col-md-4">
+					<img src="img/mmexport1515599158500.jpg" class="img-circle img-responsive"/>
+				</div>
+			</div>
+			
+			<div class="protfolid row" >
+				<div id="Protfolid"></div>
+				<div class="header text-center" >
+					<h3>PROFILE</h3>
+				</div>
+				<div class="col-md-12">
+					<figure class="col-md-6">
+						<img src="img/mn-medium.jpg" class="img-responsive thumbnail"/>
+					</figure>
+					
+					<figure class="col-md-6">
+						<img src="img/q6-large.jpg" class="img-responsive thumbnail" />
+					</figure>
+				</div>
+				
+				<div class="col-md-12">
+					<figure class="col-md-6">
+						
+						<img src="img/Pt-large.jpg" class="img-responsive thumbnail"/>
+					</figure>
+					<figure class="col-md-6">
+						<img src="img/Zt-large.jpg" class="img-responsive thumbnail"/>
+					</figure>
+				</div>
+				
+				
+			</div>
+			<div class="contact row text-center" id="Contact">
+				<div class="col-md-6">
+					<ul class="list-group">
+						<h3>Contact Me</h3>
+						<ol class="list-group-item"><span>Name: </span>BingKun Feng</ol>
+						<ol class="list-group-item"><span>E-mail: </span>734528733@qq.com</ol>
+						<ol class="list-group-item"><span>Phone:&nbsp;</span>13547920459</ol>
+						<ol class="list-group-item"><span>Address:&nbsp;</span>China SiChuan ChengDu</ol>
+					</ul>
+
+				</div>
+				<div class="col-md-6">
+					<p>If you wanna get in touch with me, you are welcome!<br />
+					   We can have some nice chat or you can ask me some questions if you think we have the same interest. By the way, I like watching film , reading books and making website, If you are HR and want more information, Please ask for my resume.  
+					 </p>
+				</div>
+			</div>
+		</div>
+		
+		<footer class="text-center">
+			<h3>BingKun Feng © 2018. All Rights Reversed</h3>
+		</footer>
+	</body>
+	    <script type="text/javascript">
+        $(document).ready(function() {
+            $("a").click(function() {
+                $("html, body").animate({
+                    scrollTop: $($(this).attr("href")).offset().top + "px"
+                }, {
+                    duration: 500,
+                    easing: "swing"
+                });
+                return false;
+            });
+        });
+    </script>
+</html>
