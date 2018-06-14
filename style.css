@@ -1,0 +1,94 @@
+/******nav******/
+.navbar{
+	position: fixed;
+    z-index: 2;
+    width: 100%;
+    background-color: #333333;
+}
+.navbar ul{
+	float: right;
+	padding-top: 3px;
+    font-size: 1.2em;
+    font-family: "Gill Sans", sans-serif;
+    font-weight: bold;
+}
+.container{
+	margin-top: ;
+	background-color: #F3F3F3;
+}
+.container .intro p{
+	width: 80%;
+	margin: 0 auto;
+	font-weight: 400;
+}
+.container .about h4{
+	color: #18A3B7;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+.about{
+	margin-top: 70px;	
+	border-bottom: dashed;
+	padding-bottom: 40px;
+}
+.about img{
+	width: 50%;
+    margin: 0 auto;
+}
+/******PORTFOLIO******/
+.header h3{
+    color: #18A3B7;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+.protfolid img{
+	width: 90%;
+	margin: 10px auto;
+}
+.protfolid{
+	border-bottom: dashed;
+	padding-bottom: 40px;
+}
+#Protfolid{
+	height: 30px;
+}
+/******Contact******/
+.contact h3{
+    color: #18A3B7;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+.list-group{
+	width: 85%;
+    margin: 20px auto;
+}
+.list-group-item{
+    background-color: #f3f3f4;
+    font-weight: bold;
+}
+.contact span{
+    font-weight: bold;
+    color: #52a4b8;
+    font-size: 1.3em;
+}
+.contact p{
+	font-family: "微软雅黑";
+	font-size: large;
+	font-weight: 600;
+	width: 80%;
+	margin: 40px auto;
+}
+/******Footer******/
+footer{
+	background-color: #333333;
+	color: #337ab7;
+	font-size: 1.2em;
+    font-family: "Gill Sans", sans-serif;
+    font-weight: bold;
+    margin: 0;
+}
+footer h3{
+	font-size: small;
+	padding: 10px;
+	margin: 0;
+}
